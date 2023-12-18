@@ -10,5 +10,7 @@ import { RouterOutlet } from '@angular/router';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'aws-todo-front';
+  public smackMe(): void {
+      alert(`you just got smacked`)
+  };
 }
